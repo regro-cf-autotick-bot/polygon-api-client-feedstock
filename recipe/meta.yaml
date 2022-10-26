@@ -1,13 +1,13 @@
 {% set name = "polygon-api-client" %}
-{% set version = "0.2.11" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/polygon-api-client-{{ version }}.tar.gz
-  sha256: dccaaecda1eafb680f7a7a4d6175478b2639e079c51009cf1103b284c835e325
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5eb945f557ca1b8614488e88512f96ad3406379a6de190190941b28a327614ef
 
 build:
   noarch: python
@@ -19,12 +19,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
+    - poetry
   run:
-    - python >=3.6
-    - requests >=2.22.0
-    - websocket-client >=0.56.0
-    - websockets >=8.0.2
+    - python >=3.8
+    - certifi >=2022.5.18
+    - urllib3 >=1.26.9
+    - websockets >=10.3
 
 test:
   imports:
