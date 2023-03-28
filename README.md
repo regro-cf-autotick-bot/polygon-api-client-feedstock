@@ -1,11 +1,11 @@
-About polygon-api-client
-========================
+About polygon-api-client-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/polygon-api-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/polygon-io/client-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/polygon-api-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Polygon API client
 
