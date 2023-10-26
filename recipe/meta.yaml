@@ -1,5 +1,5 @@
 {% set name = "polygon-api-client" %}
-{% set version = "1.12.8" %}
+{% set version = "1.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 606b8dcaabd82ea736d80df8b7ac65b68f81784c36a7b6aaaafbbf822bc7bdac
+  sha256: a3c03c63da5531295abc868ef2c8e5f2b17d24230f2396f609600e22906c131e
 
 build:
   noarch: python
