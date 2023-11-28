@@ -26,7 +26,7 @@ requirements:
     - certifi >=2022.5.18,<2024
     - setuptools
     - urllib3 >=1.26.9,<2
-    - websockets >=10.3,<12
+    - websockets >=10.3,<13
 
 test:
   imports:
