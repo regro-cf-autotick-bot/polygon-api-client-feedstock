@@ -31,6 +31,10 @@ requirements:
 test:
   imports:
     - polygon
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/polygon-io/client-python
